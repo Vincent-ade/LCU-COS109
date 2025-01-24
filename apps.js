@@ -1,5 +1,5 @@
 var typed = new Typed(".auto-type", {
-    strings: ["Software Developer","UI/UX Designer"],
+    strings: ["I'm a Software Developer"," and also a UI/UX Designer", "Welcome to my Portfolio Website"],
     typeSpeed: 100,
     backSpeed: 100,
     loop: true
