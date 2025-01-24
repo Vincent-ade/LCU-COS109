@@ -210,6 +210,31 @@ nav ul li a:hover::after{
     transform: translateY(-10px);
 }
 
+/* ---------- skills------------- */
+.skill-title{
+    margin: 20px;
+    background: #262626;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.img1{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    border-radius: 45px;
+}
+
+.skill-icon{
+    width: 100px;
+}
+
 /* ------------portfolio------------ */
 #portfolio{
     padding: 50px 0;
