@@ -201,9 +201,10 @@
                 </div>
 
                 <div class="contact-right">
-                    <form>
+                    <form action="https://api.web3forms.com/submit" method="POST" id="contact">
+                        <input type="hidden" name="access_key" value="7704698c-9e4f-480e-8529-b051b79bfd01">
                         <input type="text" name="Name" placeholder="Your name" required>
-                        <input type="email" name="email" placeholder="Your email" required>
+                        <input type="email" id="email" name="email" placeholder="Your email" required>
                         <textarea name="Message" rows="6" placeholder="Your message"></textarea>
                         <button class="btn btn2" type="submit">Submit</button>
                     </form>
@@ -218,5 +219,6 @@
     <script src="apps.js"></script>
 </body>
 </html>
+
 
 
