@@ -29,8 +29,9 @@ function closemenu(){
     sidemenu.style.right = "-200px";
 }
 
-document.getElementById("contact").addEventListener("submit", function(event) {
-    event.preventDefault();
-    alert("Thank you for your message! I'll get back to you soon.");
-    document.getElementById("contact").reset();
-});
+// document.getElementById("contact").addEventListener("submit", function(event) {
+//     event.preventDefault();
+//     alert("Thank you for your message! I'll get back to you soon.");
+//     document.getElementById("contact").reset();
+// });
+
