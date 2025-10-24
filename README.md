@@ -1,1 +1,1 @@
-# LCU-COS109
+# It was supposed to be a project for a course in my school, I was asked to build a portfolio and deploy to vercel. But after the project was submitted I decided to add more touches and improve it, so it's professionally my Professional Portfolio 
