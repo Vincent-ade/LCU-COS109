@@ -211,7 +211,54 @@ nav ul li a:hover::after{
 }
 
 /* ---------- skills------------- */
+/* ---------- skills------------- */
+.skills-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
 .skill-title{
+    background: #262626;
+    padding: 45px 35px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.4s, border-color 0.4s, box-shadow 0.4s;
+}
+
+.skill-title:hover{
+    transform: translateY(-10px);
+    border-color: #ff004f;
+    box-shadow: 0 10px 25px rgba(255, 0, 79, 0.15);
+}
+
+.skill-icon{
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    margin-bottom: 22px;
+}
+
+.skill-title h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    letter-spacing: 0.3px;
+}
+
+.skill-title p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #ababab;
+    line-height: 1.6;
+}
+
+/* .skill-title{
     margin: 20px;
     background: #262626;
     padding: 40px;
@@ -222,9 +269,9 @@ nav ul li a:hover::after{
     flex-direction: column;
     align-items: center;
     text-align: center;
-}
+} */
 
-.img1{
+/* .img1{
     width: 90px;
     height: 90px;
     position: relative;
@@ -233,7 +280,7 @@ nav ul li a:hover::after{
 
 .skill-icon{
     width: 100px;
-}
+} */
 
 /* ------------portfolio------------ */
 #portfolio{
